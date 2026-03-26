@@ -29,7 +29,7 @@ This project capable of ingesting large volumes of documents such as troubleshoo
 
 ## 🧠Architecture
 
-<img title="" src="file:///C:/Users/Admin/Pictures/Typedown/5f0244e8-3360-4672-8fc6-8269cace2458.png" alt="5f0244e8-3360-4672-8fc6-8269cace2458" style="zoom:33%;">
+![Architecture](https://raw.githubusercontent.com/madakkuni/ai-kb-assistant-rag/main/images/Arch.png)
 
 ##### Supporting Components (Background Services)
 

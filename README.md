@@ -29,15 +29,21 @@ This project capable of ingesting large volumes of documents such as troubleshoo
 
 ## 🧠Architecture
 
-<img title="" src="file:///C:/Users/Admin/Pictures/Typedown/5f0244e8-3360-4672-8fc6-8269cace2458.png" alt="5f0244e8-3360-4672-8fc6-8269cace2458" style="zoom:33%;">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/madakkuni/ai-kb-assistant-rag/main/images/Arch.png" width="500"/>
+</p>
 
 ##### Supporting Components (Background Services)
 
-<img src="file:///C:/Users/Admin/Pictures/Typedown/a54c26e3-d363-466f-8837-b610a6127a64.png" title="" alt="a54c26e3-d363-466f-8837-b610a6127a64" style="zoom:33%;">
+<p align="center">
+  <img src="./images/Supporting%20Components.png" width="500"/>
+</p>
 
 ##### Observability & Logging Layer
 
-<img src="file:///C:/Users/Admin/Pictures/Typedown/c4dd228b-03e6-4897-a755-c0be14064978.png" title="" alt="c4dd228b-03e6-4897-a755-c0be14064978" style="zoom:33%;">
+<p align="center">
+  <img src="./images/Observability%20%26%20Logging%20Layer.png" width="500" />
+</p>
 
 ---
 

@@ -27,7 +27,15 @@ This project capable of ingesting large volumes of documents such as troubleshoo
 
 ---
 
-## 🧠Architecture
+## 🤖 Application
+
+<p align="center">
+  <img src="./images/Application.png" alt="KB Assistant UI" width="1000"/>
+</p>
+
+---
+
+## 🏗️Architecture
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/madakkuni/ai-kb-assistant-rag/main/images/Arch.png" width="500"/>

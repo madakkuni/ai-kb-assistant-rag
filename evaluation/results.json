@@ -1,0 +1,29 @@
+[
+  {
+    "query": "How to deploy a Model in azure function?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "metrics": {
+      "faithfulness": 1,
+      "context_precision": 1,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "query": "I am getting invalid blob, how can i fix this?",
+    "answer": "The \"InvalidBlobOrBlock\" error message (\"The specified blob or block content is invalid.\") can occur for several reasons when uploading to Azure Blob Storage:\n\n**Causes:**\n1. The block length specified in the Put Block call isn't valid:\n   - The application/client may have specified a block size that isn't supported.\n   - The size of the block is larger than the maximum allowed block size. Check the block size limits for your API version in the Put Block reference article.\n   - Uploading blocks with inconsistent block lengths using more than one application, or after a failed previous upload, can cause this issue.\n2. The blob may have too many uncommitted blocks because a previous upload operation was canceled. The maximum number of uncommitted blocks allowed per blob is 100,000.\n\n**Solutions:**\n- If you have too many uncommitted blocks, you can:\n  1. Wait for garbage collection to clean up the uncommitted blocklist (this can take up to seven days).\n  2. Use the Azure Storage SDK to commit the uncommitted block list and clean up the blob.\n  3. Create a dummy blob with the same name and in the same container, then transfer the blob using an unblocked transfer.\n\n**Next Steps:**\n- Review the block size you are specifying and ensure it is within allowed limits.\n- Check if there are uncommitted blocks and use the Azure Storage SDK or wait for garbage collection as described above.\n\nFor details, see Source: troubleshoot-azure-azure-storage-blobs.pdf (Chunks 44, 45).",
+    "metrics": {
+      "faithfulness": 1,
+      "context_precision": 1,
+      "answer_relevance": 1
+    }
+  },
+  {
+    "query": "How to troubleshoot Azure Functions?",
+    "answer": "To troubleshoot Azure Functions, you can follow these steps:\n\n1. **Manually Restart the Function App**: Sometimes, simply restarting the function app can resolve transient issues.\n2. **Use Diagnostics Tools**:  \n   - In the Azure portal, go to your Function App and select \"Diagnose and solve problems.\"\n   - Search for \"Function App Down or Reporting Errors\" to access a tool that automates key troubleshooting checks and provides focused root cause analysis.  \n   - This tool helps identify issues like HTTP 5xx errors, timeouts, and functions not triggering or running. It also flags high resource consumption and missing invocation history.\n3. **Check Application Insights Logs**:  \n   - If Application Insights is enabled, review the logs for full exception traces and error messages.\n4. **Verify Storage Connections**:  \n   - Ensure storage connections are set up correctly and that the storage account is accessible.\n5. **Review Configuration and Migration Guides**:  \n   - If you are updating the function app runtime or language version, review the function runtime migration guides.\n   - For Python functions with module errors, try setting `PYTHON_ISOLATE_WORKER_DEPENDENCIES` to `1` in app settings.\n   - Use the Function Configuration checks detector to confirm configuration correctness.\n6. **Resource Consumption and Timeouts**:  \n   - Monitor for high CPU/memory spikes and long response times, especially on Consumption plans (max 230 seconds timeout).\n7. **Community and Support**:  \n   - If you need further help, you can ask Azure community support or submit a support request.\n\nFor more detailed troubleshooting, refer to the diagnostic report and review detector recommendations in the Azure portal. You can also consult blogs and documentation for specific runtime upgrade issues and additional tips.\n\n**References:**  \n- troubleshoot-azure-azure-functions.pdf (Chunks 4, 12, 21)",
+    "metrics": {
+      "faithfulness": 1,
+      "context_precision": 1,
+      "answer_relevance": 1
+    }
+  }
+]

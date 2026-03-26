@@ -1,0 +1,116 @@
+{"timestamp": "2026-03-26T11:01:11.648680", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:07:15.098758", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:31:41.858949", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:32:27.978645", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:32:48.974023", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-app-service.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:33:36.404896", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-app-service.pdf into 370 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:33:36.404896", "level": "INFO", "message": "Adding 370 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:23.590275", "level": "INFO", "message": "Updated BM25 index. Total documents: 370", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:23.593204", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-automation.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:32.163414", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-automation.pdf into 48 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:32.163414", "level": "INFO", "message": "Adding 48 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:35.660024", "level": "INFO", "message": "Updated BM25 index. Total documents: 418", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:35.662051", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-azure-functions.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:41.672670", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-azure-functions.pdf into 41 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:41.673737", "level": "INFO", "message": "Adding 41 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:46.340217", "level": "INFO", "message": "Updated BM25 index. Total documents: 459", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:34:46.341956", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-azure-monitor.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:35:11.178339", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-azure-monitor.pdf into 429 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:35:11.178339", "level": "INFO", "message": "Adding 429 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:36:14.062912", "level": "INFO", "message": "Updated BM25 index. Total documents: 888", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:36:14.066991", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-azure-storage-blobs.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:36:49.660216", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-azure-storage-blobs.pdf into 274 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:36:49.661752", "level": "INFO", "message": "Adding 274 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:00.800383", "level": "INFO", "message": "Updated BM25 index. Total documents: 1162", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:00.807446", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-azure-storage-files.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:26.785352", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-azure-storage-files.pdf into 397 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:26.786718", "level": "INFO", "message": "Adding 397 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:58.402280", "level": "INFO", "message": "Updated BM25 index. Total documents: 1559", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:58.404398", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-cosmos-db.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:59.541901", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-cosmos-db.pdf into 20 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:37:59.541901", "level": "INFO", "message": "Adding 20 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:38:01.161874", "level": "INFO", "message": "Updated BM25 index. Total documents: 1579", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:38:01.169330", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-logic-apps.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:38:01.798626", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-logic-apps.pdf into 11 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:38:01.798626", "level": "INFO", "message": "Adding 11 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:38:03.002891", "level": "INFO", "message": "Updated BM25 index. Total documents: 1590", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:50.539265", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:50.542439", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:51.799315", "level": "INFO", "message": "Hybrid retrieval yielded 9 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:51.804626", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:51.808536", "level": "INFO", "message": "Reranking 9 documents for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:52.633328", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:52.636484", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:43:57.719470", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:51:55.974248", "level": "INFO", "message": "Initialized BM25 with 1590 documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T11:51:55.984134", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:22:52.670918", "level": "INFO", "message": "Initialized BM25 with 1590 documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:22:52.674007", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:26:34.676007", "level": "INFO", "message": "Initialized BM25 with 1590 documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:26:34.683129", "level": "INFO", "message": "Loading CrossEncoder model: cross-encoder/ms-marco-MiniLM-L-6-v2", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:18.125016", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:18.125016", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:20.049222", "level": "INFO", "message": "Hybrid retrieval yielded 10 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:20.055849", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:20.055849", "level": "INFO", "message": "Reranking 10 documents for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:21.334505", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:21.337727", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:30:25.012675", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:39:30.342376", "level": "INFO", "message": "Ingesting file: troubleshoot-azure-virtual-network.pdf", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:39:52.848629", "level": "INFO", "message": "Successfully chunked troubleshoot-azure-virtual-network.pdf into 116 chunks.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:39:52.848629", "level": "INFO", "message": "Adding 116 documents to Hybrid Retriever", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:42:28.107971", "level": "INFO", "message": "Updated BM25 index. Total documents: 1706", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:24.504845", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:24.508119", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'Share more details about Virtual Network'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:26.025455", "level": "INFO", "message": "Hybrid retrieval yielded 10 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:26.028178", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:26.028698", "level": "INFO", "message": "Reranking 10 documents for query: 'Share more details about Virtual Network'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:27.148896", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:27.151162", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T12:44:36.006774", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:14.046296", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:14.046296", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'How to deploy a Model in azure function?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:15.262627", "level": "INFO", "message": "Hybrid retrieval yielded 9 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:15.263148", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:15.263148", "level": "INFO", "message": "Reranking 9 documents for query: 'How to deploy a Model in azure function?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:16.194685", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:16.196249", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:18.495334", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:18.498802", "level": "INFO", "message": "Executing node: evaluation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T14:03:18.498802", "level": "INFO", "message": "Running evaluation for query: How to deploy a Model in azure function?", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:06.807891", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:06.813252", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:07.971730", "level": "INFO", "message": "Hybrid retrieval yielded 10 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:07.973802", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:07.973802", "level": "INFO", "message": "Reranking 10 documents for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:09.027181", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:09.028698", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:12.607395", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:12.607395", "level": "INFO", "message": "Executing node: evaluation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:49:12.612060", "level": "INFO", "message": "Running evaluation for query: I am getting invalid blob, how can i fix this?", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:23.680219", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:23.680219", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:24.773788", "level": "INFO", "message": "Hybrid retrieval yielded 9 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:24.773788", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:24.773788", "level": "INFO", "message": "Reranking 9 documents for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:25.374325", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:25.374325", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:29.619485", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:29.620757", "level": "INFO", "message": "Executing node: evaluation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:29.622440", "level": "INFO", "message": "Running evaluation for query: How to troubleshoot Azure Functions?", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:53.290875", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:53.290875", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:54.333030", "level": "INFO", "message": "Hybrid retrieval yielded 9 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:54.333030", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:54.337320", "level": "INFO", "message": "Reranking 9 documents for query: 'How to troubleshoot Azure Functions?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:54.914352", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:52:54.914352", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:00.533823", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:50.810563", "level": "INFO", "message": "Executing node: hybrid_retrieval", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:50.812090", "level": "INFO", "message": "Running Hybrid Retrieval for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:51.900533", "level": "INFO", "message": "Hybrid retrieval yielded 10 unique documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:51.902360", "level": "INFO", "message": "Executing node: reranker", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:51.902360", "level": "INFO", "message": "Reranking 10 documents for query: 'I am getting invalid blob, how can i fix this?'", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:52.816591", "level": "INFO", "message": "Reranker selected 3 top documents.", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:52.816591", "level": "INFO", "message": "Executing node: answer_generator", "logger_name": "kb_assistant"}
+{"timestamp": "2026-03-26T15:53:56.371060", "level": "INFO", "message": "Executing node: citation", "logger_name": "kb_assistant"}
